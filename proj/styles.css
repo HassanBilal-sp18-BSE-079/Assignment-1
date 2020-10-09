@@ -1,0 +1,103 @@
+header {
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/house.jpg"), no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+nav a {
+  color: black;
+}
+nav li a:hover {
+  background-color: ghostwhite;
+  color: black;
+}
+body {
+  font-family: "Sansita Swashed", cursive;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: x-large;
+}
+.nav-link {
+  font-weight: 500;
+}
+.div1 {
+  padding: 50px;
+  color: white;
+}
+.div1 h1 {
+  font-size: 80px;
+  text-shadow: 2px 2px 2px black;
+}
+.div1 p {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+.card {
+  border: none;
+  width: 50%;
+  margin: auto auto;
+}
+header select {
+  width: 90%;
+  height: 40px;
+}
+header input {
+  background-color: coral;
+  color: white;
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+header .btn1:hover {
+  background-color: rgb(255, 68, 68);
+  transition: 0.5s;
+}
+.owner .div2 {
+  font-weight: 500;
+  margin-top: 30px;
+}
+.owner .btn2 {
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border: none;
+}
+.owner .btn2:hover {
+  background-color: rgb(36, 36, 36);
+  transition: 0.5s;
+}
+.sale {
+  background-color: rgb(221, 221, 221);
+}
+.sale .card {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(32, 32, 32);
+}
+.btn3 {
+  background-color: coral;
+  color: white;
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 40px;
+  margin-top: 32px;
+  margin-left: 20px;
+}
+.btn3:hover {
+  background-color: rgb(255, 68, 68);
+  transition: 0.5s;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+}
